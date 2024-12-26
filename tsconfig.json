@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                       // Set the target ECMAScript version to ES2022
+    "module": "nodenext",                      // Use Node.js next-gen module resolution
+    "moduleResolution": "nodenext",            // Resolve modules using the nodenext strategy
+    "outDir": "./dist",                        // Output compiled JavaScript to the 'dist' folder
+    "rootDir": "./src",                        // Source files are inside the 'src' folder
+    "strict": true,                            // Enable strict type-checking options
+    "esModuleInterop": true,                   // Allows default imports from modules with no default export
+    "skipLibCheck": true,                      // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,  // Enforces consistent file casing
+    "resolveJsonModule": true,                 // Allow importing JSON files as modules
+    "isolatedModules": true                    // Ensure each file can be safely transpiled independently
+  },
+  "include": [
+    "src//*.ts"                              // Include all TypeScript files in the 'src' folder
+  ]
+}

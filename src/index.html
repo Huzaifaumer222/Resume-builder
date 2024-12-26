@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Resume Builder</title>
+  <link rel="stylesheet" href="src/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div contenteditable="true" id="about-me">Write about yourself...</div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div contenteditable="true" id="skills-list">HTML, CSS, JavaScript</div>
+    </section>
+
+    <button id="download-btn">Download Resume</button>
+  </main>
+
+  <script src="src/scripts/index.ts"></script>
+</body>
+</html>
